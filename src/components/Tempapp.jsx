@@ -4,7 +4,7 @@ import './Styles/tempapp.scss'
 
 const Tempapp = () => {
 
-    const [city, setCity] = useState("Pune");
+    // const [city, setCity] = useState("Pune");
 
     return (
         <div className='container'>
