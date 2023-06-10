@@ -23,7 +23,7 @@ const Tempapp = () => {
         <div className='container'>
             <div className='main'>
                 <div className='inputData'>
-                    <input type='search' value={search} className='inputField' onChange={(event) => { setSearch(event.target.value) }} />
+                    <input type='search' value={search} className='inputField' placeholder='Search city' onChange={(event) => { setSearch(event.target.value) }} />
                 </div>
                 {!city ? (
                     <p> No Data Found</p>
