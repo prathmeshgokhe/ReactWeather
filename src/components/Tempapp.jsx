@@ -4,7 +4,7 @@ import './Styles/tempapp.scss'
 const Tempapp = () => {
 
     const [city, setCity] = useState(null);
-    const [search, setSearch] = useState('dubai')
+    const [search, setSearch] = useState(null)
 
     useEffect(() => {
 
