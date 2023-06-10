@@ -43,7 +43,7 @@
             color: white;
             height: 75%;
             width: 1005;
-            border: 2px solid red;
+            // border: 2px solid red;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -57,14 +57,23 @@
                 justify-content: center;
                 font-size: 45px;
                 // border: 1px solid yellow;
+                overflow: hidden;
             }
             h1 {
                 padding: 10px 0;
                 // border: 1px solid brown;
             }
-            h3 {
+            .tempmin_max {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 20px;
                 padding: 20px 0;
-                // border: 1px solid blue;
+                font-weight: 400;
+                .vl {
+                    border-left: 2px solid white;
+                    height: 100%;
+                }
             }
         }
     }
