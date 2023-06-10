@@ -18,7 +18,7 @@ ReactWeather is a web application that displays real-time weather information us
 
 ## Installation
 
-1. Clone the repository: git clone [Github Repo link](https://github.com/your-username/reactweather.git)
+1. Clone the repository: git clone https://github.com/prathmeshgokhe/ReactWeather.git
 2. Navigate to the project directory: cd reactweather
 3. Install dependencies: npm install
 4. Obtain an API key from the OpenWeather website by creating an account.
