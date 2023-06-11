@@ -9,7 +9,7 @@ const Tempapp = () => {
     useEffect(() => {
 
         const fetchApi = async () => {
-            const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=11054c1f7f371fe1b1ec3bf06e94e316`
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=11054c1f7f371fe1b1ec3bf06e94e316&units=metric`
             const response = await fetch(url)
             const resJson = await response.json();
             // console.log(resJson)
@@ -32,7 +32,7 @@ const Tempapp = () => {
                         <h2 className='location'>
                             <i class="fa-solid fa-temperature-three-quarters" ></i>{search}
                         </h2>
-                        <h1 className='temp'>{((city.main?.temp) - 273).toFixed(2)} °Cel</h1>
+                        <h1 className='temp'>{(city.main?.temp)} °Cel</h1>
                         <h3 className='tempmin_max'>
                             <div className='hum-win'>
                                 Humidity: {(city.main?.humidity)}% <br />
